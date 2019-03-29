@@ -1,0 +1,65 @@
+body {
+    background-image: url("dots.jpg");
+    background-attachment: fixed;
+}
+
+#photoAn {
+    border-radius: 70%;
+    display: block;
+    margin-left: 30px;
+    width: 80%;
+}
+
+#logoAn {
+    display: block;
+
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#box, #leftside{
+    margin-top: 20px;
+    background-color: #aaa4a45b;
+}
+
+#box1{
+    background-color: #aaa4a45b;
+}
+
+li {
+    list-style: none;
+    text-align: center;
+}
+
+a:link{
+    color: #ff00b3;
+}
+
+h2 {
+    text-align: center;
+}
+
+h4{
+    color: #cb6ce6;
+    text-align: center;
+    font-weight: bold;
+}
+
+#icon {
+    color: #fa70d8ad;
+    
+}
+
+#check {
+    color: #fa70d8ad;
+}
+
+#offcheck {
+    color: #fa70d757;
+}
+
+#work,#school,#reference {
+    text-align: center;
+    margin: auto;
+}
