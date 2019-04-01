@@ -6,35 +6,20 @@
 
 .card-header {
     background-color: #cc6ce642;
-}
-
-.card-header:hover {
-    background-color: #ffb3e8;
+    text-align: center;
 }
 
 .btn {
     color: #a37ea1;
 }
 
-.btn:hover {
-    color: #ffffff;
-}
-
-#box1, #leftside, #first{
-    background-color: #aaa4a45b;
-}
-
 .fab {
     font-size: 40px;
     padding: 6px;
-
 }
 
 #box{
     margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #aaa4a45b;
 }
 
 body {
@@ -50,7 +35,8 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
+    width: 280px;
+    height: 280px;
 }
 
 #logoAn {
@@ -80,9 +66,9 @@ h4{
 }
 
 #title {
-    border: 1px solid #9f02cf;
+    margin-top: 15px;
+    
 }
-
 
 #icon1, #icon2, #icon3 {
     color: #fa70d8ad;
@@ -100,4 +86,63 @@ h4{
 
 #offcheck {
     color: #fa70d757;
+}
+
+.features{
+    font-size: 10em;
+}
+
+#facebook {
+    color: #09139e;
+}
+
+#twitter {
+    color: #00b7ff;
+}
+
+#instagram{
+    color: #9c179c;
+}
+
+#linkedin{
+    color:#4949ca;
+}
+
+@media only screen and (max-width: 320px) {
+    .features{
+        display: none;
+    }
+    #right {
+        padding-top: 10px;
+    }
+    #photoAn{
+        height: 200px;
+        width: 200px;
+    }
+    #logoAn {
+        display: none;
+    }
+    body{
+        font-size: 20px;
+        margin-right: 35px
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+    #box, #box1, #leftside, #first{
+        background-color: #aaa4a45b;
+    }
+    .card-header:hover {
+        background-color: #ffb3e8;
+    }
+    .btn:hover {
+        color: #ffffff;
+    }
+    #title {
+        border: 1px solid #9f02cf;
+    }
+    .fab:hover {
+        background-color: #cdcdec;
+    }
 }
