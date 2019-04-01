@@ -1,5 +1,5 @@
 .card-body {
-    background-image: url("dots.jpg") ;
+    background-image: url("dots.jpg");
     background-attachment: fixed;
     opacity: 2;
 }
@@ -24,6 +24,7 @@
 
 body {
     background-image: url("dots.jpg");
+    
     background-attachment: fixed;
     background-color: #fff;
     font-family: 'Khand', sans-serif;
