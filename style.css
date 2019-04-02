@@ -1,150 +1,152 @@
 .card-body {
-    background-image: url("dots.jpg");
-    background-attachment: fixed;
-    opacity: 2;
+  background-image: url("dots.jpg");
+  background-attachment: fixed;
+  opacity: 2;
 }
 
 .card-header {
-    background-color: #cc6ce642;
-    text-align: center;
+  background-color: #cc6ce642;
+  text-align: center;
 }
 
 .btn {
-    color: #a37ea1;
+  color: #a37ea1;
 }
 
 .fab {
-    font-size: 40px;
-    padding: 6px;
+  font-size: 40px;
+  padding: 6px;
 }
 
-#box{
-    margin-top: 20px;
+#box {
+  margin-top: 20px;
 }
 
 body {
-    background-image: url("dots.jpg");
-    
-    background-attachment: fixed;
-    background-color: #fff;
-    font-family: 'Khand', sans-serif;
-    
+  background-image: url("dots.jpg");
+  background-attachment: fixed;
+  background-color: #fff;
+  font-family: 'Khand', sans-serif;
 }
 
 #photoAn {
-    border-radius: 70%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 280px;
-    height: 280px;
+  border-radius: 70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 280px;
+  height: 280px;
 }
 
 #logoAn {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 li {
-    list-style: none;
-    text-align: center;
+  list-style: none;
+  text-align: center;
 }
 
-a:link{
-    color: #ff00b3;
+a:link {
+  color: #ff00b3;
 }
 
 h2 {
-    text-align: center;
-    font-family: 'Abel', sans-serif;
+  text-align: center;
+  font-family: 'Abel', sans-serif;
 }
 
-h4{
-    color: #cb6ce6;
-    text-align: center;
-    font-weight: bold;
+h4 {
+  color: #cb6ce6;
+  text-align: center;
+  font-weight: bold;
 }
 
 #title {
-    margin-top: 15px;
-    
+  margin-top: 15px;
 }
 
 #icon1, #icon2, #icon3 {
-    color: #fa70d8ad;
-    padding: 70px;
+  color: #fa70d8ad;
+  padding: 70px;
 }
 
-#icon{
-    display: flex;
-    flex-direction: column;
+#icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 #check {
-    color: #fa70d8ad;
+  color: #fa70d8ad;
 }
 
 #offcheck {
-    color: #fa70d757;
+  color: #fa70d757;
 }
 
-.features{
-    font-size: 10em;
+.features {
+  font-size: 10em;
 }
 
 #facebook {
-    color: #09139e;
+  color: #09139e;
 }
 
 #twitter {
-    color: #00b7ff;
+  color: #00b7ff;
 }
 
-#instagram{
-    color: #9c179c;
+#instagram {
+  color: #9c179c;
 }
 
-#linkedin{
-    color:#4949ca;
+#linkedin {
+  color: #4949ca;
 }
 
 @media only screen and (max-width: 320px) {
-    .features{
-        display: none;
-    }
-    #right {
-        padding-top: 10px;
-    }
-    #photoAn{
-        height: 200px;
-        width: 200px;
-    }
-    #logoAn {
-        display: none;
-    }
-    body{
-        font-size: 20px;
-        margin-right: 10px;
-        margin-left: 10px;
-    }
+  .features {
+    display: none;
+  }
+  #right {
+    padding-top: 10px;
+  }
+  #photoAn {
+    height: 200px;
+    width: 200px;
+  }
+  #logoAn {
+    display: none;
+  }
+  body {
+    font-size: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
 }
 
 @media only screen and (min-width: 768px) {
-
-    #box, #box1, #leftside, #first{
-        background-color: #aaa4a45b;
-    }
-    .card-header:hover {
-        background-color: #ffb3e8;
-    }
-    .btn:hover {
-        color: #ffffff;
-    }
-    #title {
-        border: 1px solid #9f02cf;
-    }
-    .fab:hover {
-        background-color: #cdcdec;
-    }
+  #box, #box1, #leftside, #first {
+    background-color: #aaa4a45b;
+  }
+  .card-header:hover {
+    background-color: #ffb3e8;
+  }
+  .btn:hover {
+    color: #ffffff;
+  }
+  #title {
+    border: 1px solid #9f02cf;
+  }
+  .fab:hover {
+    background-color: #cdcdec;
+  }
 }
+/*# sourceMappingURL=style.css.map */
